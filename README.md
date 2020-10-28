@@ -1,7 +1,14 @@
 # prime-decomposition
 Competition CS Advanced Algorithms #2 for prime number decomposition
 
-Run:
-*starting_k/submission/factorize.py public_dat/public_dataset output/*
+Commands:
+```bash
+cd starting_k/submission
+sh run.sh
+```
 
-You will find in output/ folder the decomposition of numbers as .txt files from public_dat/public_dataset using the algorithm in factorize.py
+This will run the prime factorization for each instance in public_dat/public_dataset.
+
+Each instance contains 10 to 20 numbers.
+
+Results will be stored in a generated dist folder

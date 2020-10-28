@@ -13,8 +13,8 @@ Each instance contains 10 to 20 numbers.
 
 Results will be stored in a generated dist folder
 
+**Algorithms Versions**
+*Algorthims can be find in starting_k/submissions/algos.py*
 
-- Algorithm Version 1
-
-Combination of [Pollard Rho](https://en.wikipedia.org/wiki/Pollard's_rho_algorithm) algorithm, look-up in a list of pre-generated prime numbers and brute force search.
+- Algorithm Version 1: Combination of [Pollard Rho](https://en.wikipedia.org/wiki/Pollard's_rho_algorithm) algorithm, look-up in a list of pre-generated prime numbers and brute force search.
 

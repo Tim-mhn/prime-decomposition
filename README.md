@@ -12,3 +12,9 @@ This will run the prime factorization for each instance in public_dat/public_dat
 Each instance contains 10 to 20 numbers.
 
 Results will be stored in a generated dist folder
+
+
+- Algorithm Version 1
+
+Combination of [Pollard Rho](https://en.wikipedia.org/wiki/Pollard's_rho_algorithm) algorithm, look-up in a list of pre-generated prime numbers and brute force search.
+

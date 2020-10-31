@@ -2,7 +2,7 @@ import sys, os
 import functools
 from time import time
 from brute_force import brute_force
-from algos import factorize_v1
+from algos import factorize_v1, factorize_v2
 
 def test_decompistion(n, primes):
     mult = functools.reduce(lambda a,b : a*b,primes)
@@ -29,13 +29,13 @@ def factorize(numbers):
     rep = {}
     for n in numbers:
         start_n = time()
-        primes = factorize_v1(n, ini_facto=True)
+        primes = factorize_v2(n, ini_facto=True)
         if test_decompistion(n, primes):
-            print(f"Correct decomposition for {n}")
+            # print(f"Correct decomposition for {n}")
             rep[n] = primes
         else:
             print(f"Wrong decomposition for {n} with {primes}")
-        print(f"Took {time() - start_n}\n")
+        # print(f"Took {time() - start_n}\n")
 
     print(f"Took {time() - start} s\n\n")
     return rep
